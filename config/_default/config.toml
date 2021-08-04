@@ -48,7 +48,7 @@ ignoreErrors = ["error-remote-getjson"]
   # description = "/description.md"
   # Note: and put the description.md in /content/description.md
 
-  [Params.Tree]
+  [[Params.Trees]]
   use = true
   folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
@@ -58,6 +58,15 @@ ignoreErrors = ["error-remote-getjson"]
     ["Go", "https://golang.org/"],
     ["Hugo", "/post/some-activity.md"],
     ["Docker", "/post/some-activity.md"],
+  ]
+
+  [[Params.Trees]]
+  use = true
+  folderName = "my_hobbies"
+  files = [ 
+    ["Coding", "https://www.example.com/"],
+    ["Yoga", "https://www.example.com/"],
+    ["Snowboarding", "https://www.example.com/"],
   ]
 
 [module]
